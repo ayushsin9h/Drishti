@@ -1,0 +1,31 @@
+# Define BOTH a light and dark purple theme natively. Streamlit themes every
+# widget (including tables) consistently, and the user switches via ⋮ → Settings.
+[theme]
+base = "dark"
+primaryColor = "#8B5CF6"
+font = "sans serif"
+
+[theme.dark]
+backgroundColor = "#150C2E"
+secondaryBackgroundColor = "#1E1640"
+textColor = "#F4F1FF"
+
+[theme.dark.sidebar]
+backgroundColor = "#190F33"
+secondaryBackgroundColor = "#241748"
+
+[theme.light]
+backgroundColor = "#F7F4FF"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1E1338"
+
+[theme.light.sidebar]
+backgroundColor = "#EFEAFB"
+secondaryBackgroundColor = "#FFFFFF"
+
+[server]
+headless = true
+enableXsrfProtection = true
+# --- optional: enable HTTPS locally (see notes). Uncomment after creating certs ---
+# sslCertFile = "cert.pem"
+# sslKeyFile = "key.pem"

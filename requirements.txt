@@ -1,0 +1,16 @@
+streamlit>=1.46
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0
+h3>=4.0
+lightgbm>=4.0
+pydeck>=0.9
+streamlit-mic-recorder>=0.0.8
+indic-transliteration>=2.3
+streamlit-autorefresh>=1.0
+streamlit-option-menu>=0.3.6
+gTTS>=2.5
+plotly>=5.20
+# --- optional login add-on (see src/auth.py) ---
+streamlit-authenticator>=0.3.2
+PyYAML>=6.0

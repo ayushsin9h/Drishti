@@ -1,0 +1,13 @@
+# raw data is 110MB — never commit it; the app only needs data/processed/*
+data/raw/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+.streamlit/secrets.toml
+
+# never commit real credentials
+auth_config.yaml
